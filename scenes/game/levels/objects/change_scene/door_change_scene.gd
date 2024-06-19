@@ -23,7 +23,5 @@ func _ready():
 func _load_nex_level(body):
 	# Cambiamos de escena si la ruta no está vacía y el personaje principa entra en contacto
 	if _path_to_scene != "" and body.is_in_group("player"):
-		print(_path_to_scene)
-		var scene = "res://scenes/game/levels/rooms/scene_2/scene_4.tscn"
-		SceneTransition.change_scene(scene)
-		#SceneTransition.change_scene(_path_to_scene)
+		SceneTransition.change_scene(_path_to_scene)
+

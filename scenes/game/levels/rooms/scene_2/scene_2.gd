@@ -19,5 +19,5 @@ func _ready():
 # Cargamos el siguiente nivel (la siguiente escena)
 func _load_nex_level(body):
 	if body.is_in_group("player"):
-		return "res://scenes/game/levels/rooms/scene_2/scene_2.tscn"
+		return "res://scenes/game/levels/rooms/scene_3/scene_3.tscn"
 		#SceneTransition.change_scene(scene) # Por el momento no usaremos este cambio de nivel

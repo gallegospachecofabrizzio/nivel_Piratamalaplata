@@ -3,6 +3,7 @@ extends Node2D
 ## 
 ## Muestra el menú principal apagado desde la escena Splash
 
+@export var _current_scene = 1
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
